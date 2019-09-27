@@ -17,6 +17,8 @@ public class CPlusPlusTestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle("C/C++学习");
         TextView tv = findViewById(R.id.sample_text);
+        testC();
     }
 
+    public native int testC();
 }
