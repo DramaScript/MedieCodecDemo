@@ -24,5 +24,6 @@ extern "C"
 JNIEXPORT jint JNICALL
 Java_com_dramascript_mediecodecdemo_CPlusPlusTestActivity_testC(JNIEnv *env, jobject thiz) {
     testBaseType();
+    testPoint();
     return 0;
 }
